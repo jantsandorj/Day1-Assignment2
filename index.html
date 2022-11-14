@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <form action="">
+                <fieldset>
+                    <legend>Hi Form</legend>
+                    <div>
+                        <label for="">Нэр</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">Овог</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <label for="">И-мейл</label>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <label for="">Утас</label>
+                        <input type="number" min="60000000" max="99999999" maxlength="8">
+                    </div>
+                    <div>
+                        <label for="">Нас</label>
+                        <input type="number" min="1" max="120" maxlength="3">
+                    </div>
+                    <div>
+                        <label for="">Төрсөн өдөр</label>
+                        <input type="date" min="1900-01-01" max="2022-11-14">
+                    </div>
+                    <div>
+                        <label for="">Хүйс</label>
+                        <select>
+                            <option value="0">-- Select --</option>
+                            <option value="1">Эрэгтэй</option>
+                            <option value="2">Эмэгтэй</option>
+                            <option value="3">Хэлэхийг хүсэхгүй байна</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Тодорхойлолт</label>
+                        <textarea cols="50" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="">Сурагч эсэх</label>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <button> Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

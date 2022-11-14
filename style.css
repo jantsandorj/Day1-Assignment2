@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+div{
+    width:100%;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+label{
+    width: 15%;
+    text-align: end;
+}
+input{
+    width: 10%;
+    border-radius: 5px;
+}
+input:invalid{
+    border: 1px red solid;
+}
+input:valid{
+    border: 1px black solid;
+}
+.checkbox{
+    width: auto;
+}
+button{
+    margin: 0 auto;
+    width: 10%;
+}
